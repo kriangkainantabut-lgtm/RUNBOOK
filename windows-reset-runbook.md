@@ -22,15 +22,6 @@
 6. กด **Reset** แล้วรอ (30 นาที - 2 ชม. ขึ้นกับ disk)
 7. ตั้งค่า Windows ใหม่ตาม out-of-box setup
 
-## ขั้นตอนทางเลือก: Wipe Drive + ลง OS ใหม่ (กรณีต้องการล้างสนิท)
-
-1. สร้าง bootable USB ด้วย [Media Creation Tool](https://www.microsoft.com/software-download/windows11)
-2. บูตเครื่องจาก USB (กด F2/F12/Del ตอนเปิดเครื่องเพื่อเข้า Boot Menu)
-3. ในหน้าติดตั้ง Windows เลือก **Custom install**
-4. เลือก partition ทั้งหมดของ disk เดิม → กด **Delete** ทีละ partition จนเหลือ **Unallocated space**
-5. เลือก unallocated space → **New** → ติดตั้ง Windows ลงไป
-6. ตั้งค่า Windows ใหม่ตาม out-of-box setup
-
 > หมายเหตุ: วิธีนี้ลบทุกอย่างรวมถึง recovery partition เดิม เหมาะกับกรณีเปลี่ยนมือเครื่องหรือสงสัยมัลแวร์ฝังลึก
 
 ## Post-reset Checklist
